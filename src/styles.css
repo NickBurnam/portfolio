@@ -42,6 +42,10 @@ h1 {
     margin: 0;
 }
 
+h2 {
+    font-size: 50px;
+}
+
 p {
     margin: 0;
     font-weight: 400;
@@ -96,4 +100,28 @@ p {
 .logo {
     height: 80px;
     margin: 30px;
+}
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+/* .information {
+
+} */
+
+.bio {
+    font-size: 1.8vw;
+}
+
+.headshot {
+    width: 300px;
+    border-radius: 150px;
+}
+
+.headshot-container {
+    display: flex;
+    align-items: center;
 }
