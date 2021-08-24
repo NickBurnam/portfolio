@@ -1,9 +1,9 @@
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
 }
 
 section {
-    height: 500px;
     background-color: white;
 }
 
@@ -96,7 +96,7 @@ a {
 }
 
 .button:active {
-    background-color: #A9A9A9;
+    background-color: #a9a9a9;
     color: #808080;
 }
 
@@ -124,7 +124,6 @@ a {
 }
 
 .projects-section {
-    height: 800px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -159,6 +158,13 @@ a {
 .project-container {
     display: flex;
     justify-content: space-around;
+}
+
+@media only screen and (max-width: 1500px) {
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
 .project-image {
