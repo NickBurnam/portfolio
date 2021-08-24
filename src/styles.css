@@ -15,8 +15,10 @@ section {
 }
 
 footer {
-    height: 100px;
-    background-color: gray;
+    padding: 80px;
+    background-color: #1c1d25;
+    color: white;
+    text-align: center;
 }
 
 nav {
